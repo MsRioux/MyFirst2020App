@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TitleTV"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/count_label"
+        android:layout_margin="20dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+    <TextView
+        android:id="@+id/tallyTV"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Click a button"
+        android:layout_margin="20dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+    <Button
+        android:id="@+id/firstButton"
+        android:background="@color/Blueberry"
+        android:textColor="@color/Lemon"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="onClickAddOne"
+        android:layout_margin="20dp"
+        android:text="Click Me" />
+
+    <Button
+        android:id="@+id/secondButton"
+        android:background="@color/KiwiDark"
+        android:textColor="@color/KiwiLight"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="onClickSubtractOne"
+        android:layout_margin="20dp"
+        android:text="No, Click Me!" />
+
+    <ImageView
+        android:id="@+id/cheesecakeIV"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:layout_margin="20dp"
+        app:srcCompat="@drawable/cheesecake_yum" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:background="@color/RaspberryDark"
+        android:textColor="@color/strawberry"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="toPageTwo"
+        android:layout_margin="20dp"
+        android:text="Next screen" />
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="KiwiLight">#c0be34</color>
+    <color name="KiwiDark">#685f20</color>
+    <color name="RaspberryLight">#bb4454</color>
+    <color name="RaspberryDark">#620b1b</color>
+    <color name="Blueberry">#60637c</color>
+    <color name="Lemon">#fbd213</color>
+    <color name="cocoCrust">#392f2c</color>
+    <color name="strawberry">#f79b87</color>
+</resources>
